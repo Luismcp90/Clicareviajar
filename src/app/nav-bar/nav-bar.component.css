@@ -1,4 +1,9 @@
-.active{
+.btn-default{
+  background-color: #c3c3c3;
+  color: #ffffff
 
-  color: red;
 }
+.btn-default:hover{
+  Background-color:#ed1b2e;
+}
+
