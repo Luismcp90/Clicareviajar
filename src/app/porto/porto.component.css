@@ -1,6 +1,40 @@
-.img{
-  height: 100vh;
-  background-image: url("src/assets/Porto 2.jfif");
-  background-color: #cccccc;
+
+img{
+  margin: auto;
+  max-width: 100%;
+  width: 550px;
+  height: 400px;
+
+  }
+
+
+
+.row{
+  color: black;
+  text-align: center;
+
+
+}
+
+
+h1{
+
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding-bottom:10vh ;
+}
+
+
+p{
+
+  padding-top: 5vh;
+}
+
+
+.imagem-porto{
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 5vh;
 
 }

@@ -1,6 +1,33 @@
-.img1{
-  height: 100vh;
-  background-image: url("src/assets/Braga1.jfif");
-  background-color: #cccccc;
+img{
+  margin: auto;
+  max-width: 100%;
+  width: 550px;
+  height: 400px;
 
 }
+
+
+h1{
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding-bottom:10vh ;
+}
+
+h2{
+  text-align: center;
+  padding-bottom:10vh ;
+}
+
+
+.col-md-4{
+text-align: center;
+}
+
+.imagem-braga {
+  width: 100%;
+  height: 75vh;
+  object-fit: cover;
+  margin-bottom: 10vh;
+}
+
