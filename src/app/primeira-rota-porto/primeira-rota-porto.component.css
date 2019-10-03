@@ -1,0 +1,22 @@
+h1{
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.imagem{
+  margin: auto;
+  max-width: 100%;
+  width: 550px;
+  height: 400px;
+}
+
+.text{
+
+  padding-top: 4vh;
+  padding-bottom: 2vh;
+}
+
+th{
+  text-align: center;
+  color: red;
+}
