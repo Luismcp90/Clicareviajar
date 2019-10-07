@@ -12,8 +12,9 @@ import { PrimeiraRotaPortoComponent } from './primeira-rota-porto/primeira-rota-
 import { SegundaRotaPortoComponent } from './segunda-rota-porto/segunda-rota-porto.component';
 import { TerceiraRotaPortoComponent } from './terceira-rota-porto/terceira-rota-porto.component';
 import { PrimeiraRotaGuimaraesComponent } from './primeira-rota-guimaraes/primeira-rota-guimaraes.component';
-import { SegundaaRotaGuimaraesComponent } from './segundaa-rota-guimaraes/segundaa-rota-guimaraes.component';
+
 import { TerceiraRotaGuimaraesComponent } from './terceira-rota-guimaraes/terceira-rota-guimaraes.component';
+import { SegundaRotaGuimaraesComponent } from './segunda-rota-guimaraes/segunda-rota-guimaraes.component';
 
 
 const routes: Routes = [
@@ -29,7 +30,7 @@ const routes: Routes = [
   {path: 'segunda-rota-porto', component: SegundaRotaPortoComponent},
   {path: 'terceira-rota-porto', component: TerceiraRotaPortoComponent},
   {path: 'primeira-rota-guimaraes', component: PrimeiraRotaGuimaraesComponent},
-  {path: 'segundaa-rota-guimaraes', component: SegundaaRotaGuimaraesComponent},
+  {path: 'segunda-rota-guimaraes', component: SegundaRotaGuimaraesComponent},
   {path: 'terceira-rota-guimaraes', component: TerceiraRotaGuimaraesComponent}
 
 ];

@@ -1,0 +1,51 @@
+h1{
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.imagens{
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 5vh;
+  height: 500px;
+  overflow: hidden;
+
+}
+
+.imagens img{
+  width: 100%;
+  height: auto;
+}
+.text{
+  background-color: #f4f5f9;
+  padding: 25px;
+  font: 20px;
+  margin-bottom: 30px;
+
+}
+
+th{
+  color: red;
+}
+
+.centrar{
+
+text-align: center;
+}
+
+.cor{
+
+  color: red;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 17px!important;
+  font-size: medium;
+
+}
+

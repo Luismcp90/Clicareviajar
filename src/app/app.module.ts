@@ -16,8 +16,8 @@ import { PrimeiraRotaPortoComponent } from './primeira-rota-porto/primeira-rota-
 import { SegundaRotaPortoComponent } from './segunda-rota-porto/segunda-rota-porto.component';
 import { TerceiraRotaPortoComponent } from './terceira-rota-porto/terceira-rota-porto.component';
 import { PrimeiraRotaGuimaraesComponent } from './primeira-rota-guimaraes/primeira-rota-guimaraes.component';
-import { SegundaaRotaGuimaraesComponent } from './segundaa-rota-guimaraes/segundaa-rota-guimaraes.component';
 import { TerceiraRotaGuimaraesComponent } from './terceira-rota-guimaraes/terceira-rota-guimaraes.component';
+import { SegundaRotaGuimaraesComponent } from './segunda-rota-guimaraes/segunda-rota-guimaraes.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { TerceiraRotaGuimaraesComponent } from './terceira-rota-guimaraes/tercei
     SegundaRotaPortoComponent,
     TerceiraRotaPortoComponent,
     PrimeiraRotaGuimaraesComponent,
-    SegundaaRotaGuimaraesComponent,
+    SegundaRotaGuimaraesComponent,
     TerceiraRotaGuimaraesComponent,
   ],
   imports: [
