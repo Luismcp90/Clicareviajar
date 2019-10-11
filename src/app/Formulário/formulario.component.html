@@ -3,66 +3,62 @@
 
 
 <div class="maginal">
-  <form class="maginal">
+  <form [formGroup]="questionarioForm" (ngSubmit)="onSubmit()"class="maginal">
 
       <div class="form-group row">
-          <label for="validationTooltip01" class="col-sm-2 col-form-label">Primeiro Nome</label>
+          <label for="validationTooltip01" class="col-sm-2 col-form-label">Nome completo</label>
           <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="Primeiro_nome" [ngModelOptions]="{standalone: true}" placeholder="Primeiro Nome"  required>
+              <input type="text" class="form-control" id="validationTooltip01" formControlName="Nome_Clientes"  placeholder="Nome_Clientes"  required>
           </div>
         </div>
-
-
 
         <div class="form-group row">
-          <label for="validationTooltip01" class="col-sm-2 col-form-label">Apelido</label>
+          <label for="validationTooltip01" class="col-sm-2 col-form-label">Morada</label>
           <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="Apelido" [ngModelOptions]="{standalone: true}" placeholder="Apelido"  required>
+              <input name= "morada" type="text" class="form-control" id="validationTooltip01" formControlName="Morada_Clientes" placeholder="Morada_Clientes"  required>
           </div>
         </div>
-
 
         <div class="form-group row">
-          <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-          <div class="col-sm-10">
-            <input type="email" class="form-control" id="inputEmail3" placeholder="Email" [(ngModel)]="Email">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Localidade</label>
+            <div class="col-sm-10">
+              <input name = "localidade" type= "text" class="form-control" id="validationTooltip01" placeholder="localidade" formControlName="Localidade">
+            </div>
           </div>
-        </div>
-
-
-        <div class="form-group row">
-          <label for="validationTooltip01" class="col-sm-2 col-form-label">Endereço</label>
-          <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="Endereco" [ngModelOptions]="{standalone: true}" placeholder="Endereco"  required>
-          </div>
-        </div>
 
         <div class="form-group row">
           <label for="validationTooltip01" class="col-sm-2 col-form-label">Código Postal</label>
           <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="codigo_postal" [ngModelOptions]="{standalone: true}" placeholder="Código Postal"  required>
+              <input name = "Codigopostal" type="text" class="form-control" id="validationTooltip01" formControlName="Codigo_postal" placeholder="Codigo_postal"  required>
           </div>
         </div>
 
+        <div class="form-group row">
+            <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
+            <div class="col-sm-10">
+              <input name = "E_mail" type="text" class="form-control" id="validationTooltip01" placeholder="E_mail" formControlName="E_mail">
+            </div>
+          </div>
 
         <div class="form-group row">
           <label for="validationTooltip01" class="col-sm-2 col-form-label">Telefone</label>
           <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="Telefone" [ngModelOptions]="{standalone: true}" placeholder="Telefone"  required>
+              <input type="text" class="form-control" id="validationTooltip01" formControlName="Telefone"  placeholder="Telefone"  required>
           </div>
         </div>
 
         <div class="form-group row">
           <label for="validationTooltip01" class="col-sm-2 col-form-label">País</label>
           <div class="col-sm-10">
-              <input type="text" class="form-control" id="validationTooltip01" [(ngModel)]="codigo_postal" [ngModelOptions]="{standalone: true}" placeholder="País"  required>
+              <input type="text" class="form-control" id="validationTooltip01" formControlName="Pais"  placeholder="País"  required>
           </div>
         </div>
 
   </form>
 </div>
        <div class="submeter">
-        <button class="btn btn-primary" type="submit">Enviar</button>
+
+        <button (click)="onSubmit()" class="btn btn-primary" type="submit">Enviar</button>
        </div>
 
 
