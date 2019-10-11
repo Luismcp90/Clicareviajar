@@ -1,0 +1,151 @@
+h1{
+  text-align: center;
+  padding-bottom: 4vh;
+}
+
+.imagens{
+  object-fit: cover;
+  width: 100%;
+  margin-bottom: 5vh;
+  overflow: hidden;
+
+}
+
+.imagens img{
+  width: 100%;
+  height: auto;
+}
+
+.text{
+  background-color: #f4f5f9;
+  padding: 25px;
+  font: 20px;
+  margin-bottom: 30px;
+
+
+}
+
+th{
+  text-align: center;
+  color: red;
+}
+
+.centrar{
+  padding-top: 3vh;
+  text-align: center;
+}
+
+
+
+p {
+  font-family: sans-serif;
+  line-height: 1.5;
+-webkit-text-size-adjust: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  font-size: 17px!important;
+    font-size: medium;
+}
+
+.titulo{
+  text-align: center
+}
+
+.descricao{
+
+  background-color: #f4f5f9;
+  padding: 25px;
+  font: 20px;
+  padding-bottom: 5vh;
+
+}
+
+
+/* Botao de comprar */
+
+
+button.snip1099 {
+  font-family: 'Raleway', Arial, sans-serif;
+  border: none;
+  background-color: #000000;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 10px 30px;
+  display: inline-block;
+  margin: 15px 40px;
+  text-transform: uppercase;
+  line-height: 1.5em;
+  font-weight: 400;
+  font-size: 1em;
+  outline: none;
+  position: relative;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button.snip1099 span {
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  opacity: 0.8;
+}
+
+button.snip1099 i {
+  font-size: 21px;
+  left: 22px;
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+button.snip1099:hover span,
+button.snip1099.hover span {
+  -webkit-transform: translate3d(10px, 0px, 0px);
+  transform: translate3d(10px, 0px, 0px);
+  opacity: 1;
+}
+
+button.snip1099:hover i,
+button.snip1099.hover i {
+  opacity: 0.8;
+}
+
+button.snip1099:active span {
+  -webkit-transform: translate3d(14px, 0px, 0px);
+  transform: translate3d(14px, 0px, 0px);
+}
+
+button.snip1099:active i {
+  left: 18px;
+}
+
+button.snip1099.blue {
+  background-color: #20638f;
+}
+
+button.snip1099.red {
+  background-color: #962d22;
+}
+
+button.snip1099.yellow {
+  background-color: #b06f09;
+}
+
+
+/* Demo purposes only */
+html {
+  height: 100%;
+}
+body {
+  background-color: #212121;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  margin: 0;
+  height: 100%;
+}
+
+/* Fim Botao de comprar */

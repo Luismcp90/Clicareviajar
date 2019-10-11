@@ -11,5 +11,7 @@ export class PortoComponent implements OnInit {
 
   ngOnInit() {
   }
-
+debug(){
+  console.log("carregasteemmim");
+}
 }

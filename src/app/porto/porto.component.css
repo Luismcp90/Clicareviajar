@@ -2,8 +2,8 @@
 img{
   margin: auto;
   max-width: 100%;
-  width: 550px;
-  height: 400px;
+  height: 300px;
+
 
   }
 
@@ -22,7 +22,7 @@ h1{
   color: black;
   text-align: center;
   margin: auto;
-  padding-bottom:10vh ;
+  padding-bottom:5vh ;
 }
 
 
@@ -32,12 +32,7 @@ p{
 }
 
 
-.imagem-porto {
-  object-fit: cover;
-  width: 100%;
-  margin-bottom: 5vh;
 
-}
 
 .snip1554 {
   background-color: #045e78;
@@ -46,8 +41,6 @@ p{
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
   margin: 10px;
-  max-width: 500px;
-  min-width: 400px;
   overflow: hidden;
   position: relative;
   text-align: left;
@@ -210,3 +203,23 @@ p{
   opacity: 0.25;
 }
 /* Acaba aqui */
+
+figure{
+position: relative;
+align-self: center;
+
+}
+
+
+/* clicar no a */
+a{
+color: black;
+
+}
+a:hover{
+text-decoration: none;
+color: black;
+
+}
+
+.text{ margin: 10px;}

@@ -1,6 +1,8 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import {FormsModule} from '@angular/forms';
+import { AgmCoreModule } from '@agm/core';
+
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CapaComponent } from './Paginainicial/capa.component';
@@ -18,6 +20,10 @@ import { TerceiraRotaPortoComponent } from './terceira-rota-porto/terceira-rota-
 import { PrimeiraRotaGuimaraesComponent } from './primeira-rota-guimaraes/primeira-rota-guimaraes.component';
 import { TerceiraRotaGuimaraesComponent } from './terceira-rota-guimaraes/terceira-rota-guimaraes.component';
 import { SegundaRotaGuimaraesComponent } from './segunda-rota-guimaraes/segunda-rota-guimaraes.component';
+import { SobrenosComponent } from './sobrenos/sobrenos.component';
+import {HttpClientModule} from '@angular/common/http';
+
+
 
 @NgModule({
   declarations: [
@@ -37,11 +43,17 @@ import { SegundaRotaGuimaraesComponent } from './segunda-rota-guimaraes/segunda-
     PrimeiraRotaGuimaraesComponent,
     SegundaRotaGuimaraesComponent,
     TerceiraRotaGuimaraesComponent,
+    SobrenosComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule,
+    ReactiveFormsModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyDVg5HeWmpn10As1f8B4bLmspTOlkn-a58'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]

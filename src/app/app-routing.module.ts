@@ -15,9 +15,11 @@ import { PrimeiraRotaGuimaraesComponent } from './primeira-rota-guimaraes/primei
 
 import { TerceiraRotaGuimaraesComponent } from './terceira-rota-guimaraes/terceira-rota-guimaraes.component';
 import { SegundaRotaGuimaraesComponent } from './segunda-rota-guimaraes/segunda-rota-guimaraes.component';
+import { SobrenosComponent } from './sobrenos/sobrenos.component';
 
 
 const routes: Routes = [
+  {path: '', component: CapaComponent},
   {path: 'capa', component: CapaComponent },
   {path: 'formulario', component: FormularioComponent },
   {path: 'porto', component: PortoComponent},
@@ -31,8 +33,8 @@ const routes: Routes = [
   {path: 'terceira-rota-porto', component: TerceiraRotaPortoComponent},
   {path: 'primeira-rota-guimaraes', component: PrimeiraRotaGuimaraesComponent},
   {path: 'segunda-rota-guimaraes', component: SegundaRotaGuimaraesComponent},
-  {path: 'terceira-rota-guimaraes', component: TerceiraRotaGuimaraesComponent}
-
+  {path: 'terceira-rota-guimaraes', component: TerceiraRotaGuimaraesComponent},
+  {path: 'sobrenos', component: SobrenosComponent}
 ];
 
 
