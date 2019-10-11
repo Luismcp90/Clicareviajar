@@ -1,21 +1,28 @@
-export class Questionário {
-  Primeiro_nome: string;
-  Apelido: string;
-  Email: string;
-  Endereco: string;
-  Codigo_postal: string
-  País: string;
-  Telefone: number
+export class Questionario {
+  Nome_Clientes: string;
+  E_mail: string;
+  Morada_Clientes: string;
+  Localidade: string;
+  Codigo_postal: number;
+  Pais: string;
+  Telefone: number;
 
   // tslint:disable-next-line: max-line-length
-  constructor(Primeiro_nome: string, Apelido: string, Email: string, Endereco: string, Codigo_postal: string, País: string, Telefone: number) {
+  constructor(Nome_Clientes: string,
+    E_mail: string,
+    Morada_Clientes: string,
+    Localidade: string,
+    Codigo_postal: number,
+    Pais: string,
+    Telefone: number
+    ) {
 
-    this.Primeiro_nome = Primeiro_nome;
-    this.Apelido = Apelido;
-    this.Email = Email;
-    this.Endereco = Endereco;
+    this.Nome_Clientes = Nome_Clientes;
+    this.E_mail = E_mail;
+    this.Morada_Clientes = Morada_Clientes;
+    this.Localidade = Localidade;
     this.Codigo_postal = this.Codigo_postal;
-    this.País = País;
+    this.Pais = Pais;
     this.Telefone = Telefone;
   }
 
